@@ -1,5 +1,21 @@
 #include "s21_math.h"
 
+int s21_isnan(long double x) {
+    // NaN (not-a-number) is represented by a floating-point number where the exponent is all 1s
+    // and the mantissa is non-zero.
+    // Checking if x is not equal to itself will return true for NaN.
+    return (x != x);
+}
+
+int s21_isinf(long double x) {
+    // Infinity is represented by a floating-point number with all 1s in the exponent
+    // and a zero mantissa for positive infinity, or a one in the sign bit for negative infinity.
+    // We can check if the absolute value of x is greater than the largest finite floating-point number.
+    // We also need to check for division by zero.
+    return (x == S21_INF_POS || x == S21_INF_NEG);
+}
+
+
 long double s21_log(double x) {
   if (x == S21_INF_POS) return x;
   if (x == 0)
