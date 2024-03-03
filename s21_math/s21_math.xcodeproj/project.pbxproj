@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		DD9515A12B68B2AD00B5D393 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = DD9515A02B68B2AD00B5D393 /* main.c */; };
+		DD9FC10E2B9404C10004B8CA /* s21_math.c in Sources */ = {isa = PBXBuildFile; fileRef = DD9FC10D2B9404C10004B8CA /* s21_math.c */; };
+		DD9FC1102B9405BE0004B8CA /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = DD9FC10F2B9405BE0004B8CA /* Makefile */; };
+		DD9FC1122B9407820004B8CA /* math_test.c in Sources */ = {isa = PBXBuildFile; fileRef = DD9FC1112B9407820004B8CA /* math_test.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,10 @@
 /* Begin PBXFileReference section */
 		DD95159D2B68B2AD00B5D393 /* s21_math */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = s21_math; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD9515A02B68B2AD00B5D393 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		DD9FC10C2B9404A80004B8CA /* s21_math.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = s21_math.h; sourceTree = "<group>"; };
+		DD9FC10D2B9404C10004B8CA /* s21_math.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = s21_math.c; sourceTree = "<group>"; };
+		DD9FC10F2B9405BE0004B8CA /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		DD9FC1112B9407820004B8CA /* math_test.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = math_test.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +65,10 @@
 			isa = PBXGroup;
 			children = (
 				DD9515A02B68B2AD00B5D393 /* main.c */,
+				DD9FC10C2B9404A80004B8CA /* s21_math.h */,
+				DD9FC10D2B9404C10004B8CA /* s21_math.c */,
+				DD9FC10F2B9405BE0004B8CA /* Makefile */,
+				DD9FC1112B9407820004B8CA /* math_test.c */,
 			);
 			path = s21_math;
 			sourceTree = "<group>";
@@ -119,6 +130,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD9FC1102B9405BE0004B8CA /* Makefile in Sources */,
+				DD9FC1122B9407820004B8CA /* math_test.c in Sources */,
+				DD9FC10E2B9404C10004B8CA /* s21_math.c in Sources */,
 				DD9515A12B68B2AD00B5D393 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
