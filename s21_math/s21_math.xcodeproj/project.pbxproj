@@ -8,9 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		DD9515A12B68B2AD00B5D393 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = DD9515A02B68B2AD00B5D393 /* main.c */; };
-		DD9FC10E2B9404C10004B8CA /* s21_math.c in Sources */ = {isa = PBXBuildFile; fileRef = DD9FC10D2B9404C10004B8CA /* s21_math.c */; };
 		DD9FC1102B9405BE0004B8CA /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = DD9FC10F2B9405BE0004B8CA /* Makefile */; };
-		DD9FC1122B9407820004B8CA /* math_test.c in Sources */ = {isa = PBXBuildFile; fileRef = DD9FC1112B9407820004B8CA /* math_test.c */; };
+		DDA5A6382B96BF0A002E509D /* s21_exp.c in Sources */ = {isa = PBXBuildFile; fileRef = DDA5A6372B96BF0A002E509D /* s21_exp.c */; };
+		DDA5A63A2B96BF29002E509D /* s21_fabs.c in Sources */ = {isa = PBXBuildFile; fileRef = DDA5A6392B96BF29002E509D /* s21_fabs.c */; };
+		DDA5A63C2B96BF59002E509D /* s21_factorial.c in Sources */ = {isa = PBXBuildFile; fileRef = DDA5A63B2B96BF59002E509D /* s21_factorial.c */; };
+		DDA5A63E2B96BF78002E509D /* s21_fmod.c in Sources */ = {isa = PBXBuildFile; fileRef = DDA5A63D2B96BF78002E509D /* s21_fmod.c */; };
+		DDA5A6402B96BF97002E509D /* s21_log.c in Sources */ = {isa = PBXBuildFile; fileRef = DDA5A63F2B96BF97002E509D /* s21_log.c */; };
+		DDA5A6422B96BFD0002E509D /* s21_pow.c in Sources */ = {isa = PBXBuildFile; fileRef = DDA5A6412B96BFD0002E509D /* s21_pow.c */; };
+		DDA5A6442B96C211002E509D /* test_exp.c in Sources */ = {isa = PBXBuildFile; fileRef = DDA5A6432B96C211002E509D /* test_exp.c */; };
+		DDA5A6462B96C233002E509D /* test_fabs.c in Sources */ = {isa = PBXBuildFile; fileRef = DDA5A6452B96C233002E509D /* test_fabs.c */; };
+		DDA5A6482B96C27F002E509D /* test_factorial.c in Sources */ = {isa = PBXBuildFile; fileRef = DDA5A6472B96C27F002E509D /* test_factorial.c */; };
+		DDA5A64A2B96C305002E509D /* test_fmod.c in Sources */ = {isa = PBXBuildFile; fileRef = DDA5A6492B96C305002E509D /* test_fmod.c */; };
+		DDA5A64C2B96C337002E509D /* test_log.c in Sources */ = {isa = PBXBuildFile; fileRef = DDA5A64B2B96C337002E509D /* test_log.c */; };
+		DDA5A64E2B96C355002E509D /* test_pow.c in Sources */ = {isa = PBXBuildFile; fileRef = DDA5A64D2B96C355002E509D /* test_pow.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,9 +39,19 @@
 		DD95159D2B68B2AD00B5D393 /* s21_math */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = s21_math; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD9515A02B68B2AD00B5D393 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		DD9FC10C2B9404A80004B8CA /* s21_math.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = s21_math.h; sourceTree = "<group>"; };
-		DD9FC10D2B9404C10004B8CA /* s21_math.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = s21_math.c; sourceTree = "<group>"; };
 		DD9FC10F2B9405BE0004B8CA /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
-		DD9FC1112B9407820004B8CA /* math_test.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = math_test.c; sourceTree = "<group>"; };
+		DDA5A6372B96BF0A002E509D /* s21_exp.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = s21_exp.c; sourceTree = "<group>"; };
+		DDA5A6392B96BF29002E509D /* s21_fabs.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = s21_fabs.c; sourceTree = "<group>"; };
+		DDA5A63B2B96BF59002E509D /* s21_factorial.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = s21_factorial.c; sourceTree = "<group>"; };
+		DDA5A63D2B96BF78002E509D /* s21_fmod.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = s21_fmod.c; sourceTree = "<group>"; };
+		DDA5A63F2B96BF97002E509D /* s21_log.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = s21_log.c; sourceTree = "<group>"; };
+		DDA5A6412B96BFD0002E509D /* s21_pow.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = s21_pow.c; sourceTree = "<group>"; };
+		DDA5A6432B96C211002E509D /* test_exp.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = test_exp.c; sourceTree = "<group>"; };
+		DDA5A6452B96C233002E509D /* test_fabs.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = test_fabs.c; sourceTree = "<group>"; };
+		DDA5A6472B96C27F002E509D /* test_factorial.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = test_factorial.c; sourceTree = "<group>"; };
+		DDA5A6492B96C305002E509D /* test_fmod.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = test_fmod.c; sourceTree = "<group>"; };
+		DDA5A64B2B96C337002E509D /* test_log.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = test_log.c; sourceTree = "<group>"; };
+		DDA5A64D2B96C355002E509D /* test_pow.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = test_pow.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,12 +85,38 @@
 			isa = PBXGroup;
 			children = (
 				DD9515A02B68B2AD00B5D393 /* main.c */,
-				DD9FC10C2B9404A80004B8CA /* s21_math.h */,
-				DD9FC10D2B9404C10004B8CA /* s21_math.c */,
 				DD9FC10F2B9405BE0004B8CA /* Makefile */,
-				DD9FC1112B9407820004B8CA /* math_test.c */,
+				DD9FC10C2B9404A80004B8CA /* s21_math.h */,
+				DDA5A6362B96BED2002E509D /* testFiles */,
+				DDA5A6352B96BEC5002E509D /* sourceFiles */,
 			);
 			path = s21_math;
+			sourceTree = "<group>";
+		};
+		DDA5A6352B96BEC5002E509D /* sourceFiles */ = {
+			isa = PBXGroup;
+			children = (
+				DDA5A6372B96BF0A002E509D /* s21_exp.c */,
+				DDA5A6392B96BF29002E509D /* s21_fabs.c */,
+				DDA5A63B2B96BF59002E509D /* s21_factorial.c */,
+				DDA5A63D2B96BF78002E509D /* s21_fmod.c */,
+				DDA5A63F2B96BF97002E509D /* s21_log.c */,
+				DDA5A6412B96BFD0002E509D /* s21_pow.c */,
+			);
+			path = sourceFiles;
+			sourceTree = "<group>";
+		};
+		DDA5A6362B96BED2002E509D /* testFiles */ = {
+			isa = PBXGroup;
+			children = (
+				DDA5A6432B96C211002E509D /* test_exp.c */,
+				DDA5A6452B96C233002E509D /* test_fabs.c */,
+				DDA5A6472B96C27F002E509D /* test_factorial.c */,
+				DDA5A6492B96C305002E509D /* test_fmod.c */,
+				DDA5A64B2B96C337002E509D /* test_log.c */,
+				DDA5A64D2B96C355002E509D /* test_pow.c */,
+			);
+			path = testFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,10 +176,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDA5A63A2B96BF29002E509D /* s21_fabs.c in Sources */,
+				DDA5A6482B96C27F002E509D /* test_factorial.c in Sources */,
 				DD9FC1102B9405BE0004B8CA /* Makefile in Sources */,
-				DD9FC1122B9407820004B8CA /* math_test.c in Sources */,
-				DD9FC10E2B9404C10004B8CA /* s21_math.c in Sources */,
+				DDA5A64C2B96C337002E509D /* test_log.c in Sources */,
+				DDA5A6442B96C211002E509D /* test_exp.c in Sources */,
+				DDA5A63C2B96BF59002E509D /* s21_factorial.c in Sources */,
+				DDA5A6422B96BFD0002E509D /* s21_pow.c in Sources */,
+				DDA5A64A2B96C305002E509D /* test_fmod.c in Sources */,
 				DD9515A12B68B2AD00B5D393 /* main.c in Sources */,
+				DDA5A6402B96BF97002E509D /* s21_log.c in Sources */,
+				DDA5A63E2B96BF78002E509D /* s21_fmod.c in Sources */,
+				DDA5A6382B96BF0A002E509D /* s21_exp.c in Sources */,
+				DDA5A64E2B96C355002E509D /* test_pow.c in Sources */,
+				DDA5A6462B96C233002E509D /* test_fabs.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
